@@ -1,7 +1,7 @@
 import axios from "axios"; 
 
 export const fetchEvents = async(searchQuery = "")=>{
-   const URL = `http://192.168.0.106:3000/api/events?search=${searchQuery}`
+   const URL = `https://event-w16s.onrender.com/api/events?search=${searchQuery}`
    const res = await axios.get(URL)
    return res.data  
 } 
