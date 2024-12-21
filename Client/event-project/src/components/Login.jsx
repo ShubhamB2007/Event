@@ -19,7 +19,7 @@ const Login = () => {
   const handleSubmit = async(e)=>{
     e.preventDefault()
     try {
-      const url = "http://localhost:3000/api/login"
+      const url = "https://event-w16s.onrender.com/api/login"
       const res = await axios.post(url, data)
       console.log(res.message)
       if(res.data.token){
