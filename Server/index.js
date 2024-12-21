@@ -15,7 +15,7 @@ mongoose.connect(url)
   
 app.use(express.json())
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://192.168.0.106:5173'],
+  origin: ['https://event-fro.onrender.com'],
   credentials: true,
 }));
 
