@@ -1,5 +1,5 @@
 const AuthUser = require('../models/AuthUser')
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcryptjs')
 
 const createUser = async(userData)=>{
     const {name,email,password} = userData
