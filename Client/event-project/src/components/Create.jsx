@@ -55,7 +55,7 @@ const Create = () => {
     console.log(eventData);
     try {
       const res = await axios.post(
-        "http://localhost:3000/api/events",
+        "https://event-w16s.onrender.com/api/events",
         eventData
       );
       console.log("Event Created", res.data);
