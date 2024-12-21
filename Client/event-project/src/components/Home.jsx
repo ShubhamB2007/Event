@@ -53,7 +53,7 @@ const Home = () => {
            <input onChange={(e)=>setSearchQuery(e.target.value)} type="text" className='absolute left-12 w-64 h-full bg-transparent pl-2 text-white font-semibold outline-none' placeholder='Search For Events...' />
         </div>
  
-        <button onClick={()=>navigate('/organize-event')} className='absolute top-3 left-[203px] w-48 h-8 bg-sky-500 text-xs text-white font-bold rounded-lg'>Event Organizer? Click Here.</button>
+        <button onClick={()=>navigate('/organize-event')} className='absolute top-3 left-[203px] w-44 h-8 bg-sky-500 text-xs text-white font-bold rounded-lg'>Event Organizer? Click Here.</button>
 
         <div className='w-full h-36 absolute top-40 lg:left-[34%]'>
             <p className='text-2xl font-bold text-white absolute left-8 lg:left-36 top-2'>Categories</p>
