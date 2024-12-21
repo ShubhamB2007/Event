@@ -23,7 +23,7 @@ const SignUp = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-        const url = "http://localhost:3000/api/signup";
+        const url = "https://event-w16s.onrender.com/api/signup";
         const userData = await axios.post(url, data);
         console.log("Sending user data", userData);
         navigate('/');
