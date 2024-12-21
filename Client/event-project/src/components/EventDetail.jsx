@@ -98,7 +98,7 @@ const EventDetail = () => {
           </div>
           <button
             onClick={handleBookNow}
-            className='text-white font-bold bg-sky-500 w-32 h-7 rounded-lg absolute lg:left-[270px] top-[55px] left-52'
+            className='text-white font-bold bg-sky-500 w-28 h-7 rounded-lg absolute lg:left-[270px] top-[55px] left-52'
           >
             Book Now
           </button>
